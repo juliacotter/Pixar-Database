@@ -1,1 +1,9 @@
 -- create 10 tables
+
+CREATE TABLE Movie(
+Movie_Title   varchar(18) NOT NULL,
+Runtime       varchar(4),
+Release_Date  varchar(15)
+  CONSTRAINT movie_PK
+    PRIMARY KEY (Movie_Title)
+);
