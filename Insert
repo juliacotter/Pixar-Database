@@ -3,3 +3,21 @@
 INSERT INTO Movie VALUES ('Toy Story', '81', 'November 22, 1995');
 INSERT INTO Movie VALUES ('A Bugs Life', '95', 'November 14, 1998');
 INSERT INTO Movie VALUES ('Toy Story 2', '95', 'November 13, 1999');
+
+INSERT INTO Movie VALUES ('Monster's Inc.',	'92'	'November 2, 2001');
+INSERT INTO Movie VALUES ('Finding Nemo',	'101','	May 30, 2003');
+INSERT INTO Movie VALUES ('The Incredibles',	'116', 'November 5, 2004');
+INSERT INTO Movie VALUES (Cars	117	March 14, 2006
+INSERT INTO Movie VALUES (Ratatouille	111	June 29, 2007
+INSERT INTO Movie VALUES (WALL-E	98	June 27, 2008
+INSERT INTO Movie VALUES (Up	96	May 29, 2009
+INSERT INTO Movie VALUES (Toy Story 3	108	June 18, 2010
+INSERT INTO Movie VALUES (Cars 2	120	June 18, 2011
+INSERT INTO Movie VALUES (Brave	93	June 22, 2012
+INSERT INTO Movie VALUES (Monsters University	110	June 21, 2013
+INSERT INTO Movie VALUES (Inside Out	102	June 19, 2015
+INSERT INTO Movie VALUES (The Good Dinosaur	100	November 25, 2015
+INSERT INTO Movie VALUES (Finding Dory	105	June 17, 2016
+INSERT INTO Movie VALUES (Cars 3	109	June 15, 2017
+INSERT INTO Movie VALUES (Coco	109	Novermber 22, 2017
+INSERT INTO Movie VALUES (Incredibles 2	125	June 15, 2018
