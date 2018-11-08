@@ -3,7 +3,7 @@
 CREATE TABLE Movie(
 Movie_Title   varchar(20)   NOT NULL,
 Runtime       varchar(4),
-Release_Date  varchar(15),
+Release_Date  varchar(17),
 CONSTRAINT movie_PK
   PRIMARY KEY (Movie_Title)
 );
