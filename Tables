@@ -18,8 +18,8 @@ CONSTRAINT staff_PK
 );
 
 CREATE TABLE Multiple_Movies(
-Movie_Title   varchar(20)   NOT NULL,
-StaffID       varchar(5)    NOT NULL,
+Movie_Title   varchar(20)           NOT NULL,
+StaffID       varchar(5)            NOT NULL,
 CONSTRAINT movie_staff_PK
   PRIMARY KEY (Movie_Title, StaffID),
 CONSTRAINT movie_FK
@@ -31,8 +31,8 @@ CONSTRAINT staff_FK
 );
 
 CREATE TABLE Budget(
-BudgetID            varchar(5)    NOT NULL,
-Movie_Title         varchar(20)   NOT NULL,
+BudgetID            varchar(5)      NOT NULL,
+Movie_Title         varchar(20)     NOT NULL,
 Production_Budget   int(7),
 Staff_Budget        int(7),
 Equip_Budget        int(7),
@@ -45,15 +45,15 @@ CONSTRAINT movie_budget_PK
 
 CREATE TABLE Soundtrack (
 Track_Number    int(3),
-Song_Name       varchar(20) NOT NULL,
-Singer_Name     varchar(20) NOT NULL,
+Song_Name       varchar(20)         NOT NULL,
+Singer_Name     varchar(20)         NOT NULL,
 Composer_Name   varchar(20),
 Song_Length     int(5),
 
 );
 
 CREATE TABLE Income (
-IncomeID          int(5) NOT NULL,
+IncomeID          int(5)      NOT NULL,
 Box_Office_Sales  int(15),
 DVD_Sales         int(15),
 VHS_Sales         int(15),
@@ -63,8 +63,8 @@ Gross_Sales       int(15),
 );
 
 CREATE TABLE Movie_Review (
-CriticID      int(5) NOT NULL,
-Critic_Name   varchar(20) NOT NULL,
+CriticID      int(5)          NOT NULL,
+Critic_Name   varchar(20)      NOT NULL,
 Rating        int(5),
 Link          varchar(30),
 
