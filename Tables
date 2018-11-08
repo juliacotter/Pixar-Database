@@ -3,7 +3,7 @@
 CREATE TABLE Movie(
 Movie_Title   varchar(20)   NOT NULL,
 Runtime       varchar(4),
-Release_Date  varchar(15)
+Release_Date  varchar(15),
 CONSTRAINT movie_PK
   PRIMARY KEY (Movie_Title)
 );
@@ -11,7 +11,7 @@ CONSTRAINT movie_PK
 CREATE TABLE Staff(
 StaffID     varchar(5)    NOT NULL,
 First_Name  varchar(20),
-Last_Name   carchar(20),
+Last_Name   varchar(20),
 Position    varchar(20),
 CONSTRAINT staff_PK
   PRIMARY KEY (StaffID)
@@ -21,7 +21,7 @@ CREATE TABLE Multiple_Movies(
 Movie_Title   varchar(20)   NOT NULL,
 StaffID       varchar(5)    NOT NULL,
 CONSTRAINT movie_staff_PK
-  PRIMARY KEY (Movie_Title, StaffID)
+  PRIMARY KEY (Movie_Title, StaffID),
 CONSTRAINT movie_FK
   FOREIGN KEY (Movie_Title)
     REFERENCES Movie(Movie_Title),
@@ -42,3 +42,4 @@ CONSTRAINT movie_budget_PK
   FOREIGN KEY (Movie_Title)
     REFERENCES Movie(Movie_Title)
 );
+
