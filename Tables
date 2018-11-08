@@ -61,3 +61,11 @@ Digital_Sales     int(15),
 Gross_Sales       int(15),
 
 );
+
+CREATE TABLE Movie_Review (
+CriticID      int(5) NOT NULL,
+Critic_Name   varchar(20) NOT NULL,
+Rating        int(5),
+Link          varchar(30),
+
+);
