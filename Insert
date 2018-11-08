@@ -1,1 +1,5 @@
 -- fill tables with info about movies
+
+INSERT INTO Movie VALUES ('Toy Story', '81', 'November 22, 1995');
+INSERT INTO Movie VALUES ('A Bugs Life', '95', 'November 14, 1998');
+INSERT INTO Movie VALUES ('Toy Story 2', '95', 'November 13, 1999');
