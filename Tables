@@ -54,6 +54,19 @@ CONSTRAINT
  CONSTRAINT
 );
 
+CREATE TABLE Multiple_Songs(
+Movie_Title   varchar(20)       NOT NULL,
+TrackNo       int(3)            NOT NULL,
+CONSTRAINT movie_song_PK
+  PRIMARY KEY (Movie_Title, TrackNo),
+CONSTRAINT movie_critic_FK
+  FOREIGN KEY (Movie_Title)
+    REFERENCES Movie(Movie_Title),
+CONSTRAINT soundtrack_FK
+  FOREIGN KEY (TrackNo)
+    REFERENCES Soundtrack(TrackNo)
+);
+
 CREATE TABLE Income (
 IncomeID          int(5)      NOT NULL,
 Box_Office_Sales  int(15),
