@@ -2,10 +2,10 @@
 
 INSERT INTO Movie VALUES ('Toy Story', '81', 'November 22, 1995');
 INSERT INTO Movie VALUES ('A Bugs Life', '95', 'November 14, 1998');
-INSERT INTO Movie VALUES ('Toy Story 2', '95', 'November 13, 1999');
-INSERT INTO Movie VALUES ('Monster's Inc.',	'92'	'November 2, 2001');
-INSERT INTO Movie VALUES ('Finding Nemo',	'101','	May 30, 2003');
-INSERT INTO Movie VALUES ('The Incredibles',	'116', 'November 5, 2004');
+INSERT INTO Movie VALUES ('Toy Story 2','95', 'November 13, 1999');
+INSERT INTO Movie VALUES ('Monster's Inc.','92','November 2, 2001');
+INSERT INTO Movie VALUES ('Finding Nemo','101','May 30, 2003');
+INSERT INTO Movie VALUES ('The Incredibles','116','November 5, 2004');
 INSERT INTO Movie VALUES (Cars	117	March 14, 2006
 INSERT INTO Movie VALUES (Ratatouille	111	June 29, 2007
 INSERT INTO Movie VALUES (WALL-E	98	June 27, 2008
