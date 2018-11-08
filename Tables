@@ -43,3 +43,10 @@ CONSTRAINT movie_budget_PK
     REFERENCES Movie(Movie_Title)
 );
 
+CREATE TABLE Soundtrack (
+Track_Number    int(3),
+Song_Name       varchar(20) NOT NULL,
+Singer_Name     varchar(20) NOT NULL,
+Composer_Name   varchar(20),
+Song_Length     int(5),
+);
