@@ -142,10 +142,18 @@ INSERT INTO multiple_movies VALUES('Cars',	'A033');
 INSERT INTO multiple_movies VALUES('Cars',	'A034');
 INSERT INTO multiple_movies VALUES('Cars',	'C001');
 
-INSERT INTO budget VALUES ('B001',	'Toy Story',	'$30000000', NULL, NULL);
-INSERT INTO budget VALUES ('B002',	'A Bug's Life',	'$120000000', null, null);
-INSERT INTO budget VALUES ('B003',	'Toy Story 2',	'$90000000', NULL, NULL);
-INSERT INTO budget VALUES ('B004',	'Mnster's Inc.',	'$115000000', NULL, NULL);
-INSERT INTO budget VALUES ('B005',	'Finding Nemo',	'$94000000', NULL, NULL);
-INSERT INTO budget VALUES ('B006',	'The Incredibles',	'$92000000', NULL, NULL);
-INSERT INTO budget VALUES ('B007',	'Cars',	'$120000000', NULL, NULL);
+INSERT INTO budget VALUES ('B001',	'Toy Story',	'30000000', NULL, NULL);
+INSERT INTO budget VALUES ('B002',	'A Bug's Life',	'120000000', null, null);
+INSERT INTO budget VALUES ('B003',	'Toy Story 2',	'90000000', NULL, NULL);
+INSERT INTO budget VALUES ('B004',	'Mnster's Inc.',	'115000000', NULL, NULL);
+INSERT INTO budget VALUES ('B005',	'Finding Nemo',	'94000000', NULL, NULL);
+INSERT INTO budget VALUES ('B006',	'The Incredibles',	'92000000', NULL, NULL);
+INSERT INTO budget VALUES ('B007',	'Cars',	'120000000', NULL, NULL);
+
+INSERT INTO income VALUES ('I001',	'Toy Story',	'29140617',	'91707142',	'18677385',	'191796233');
+INSERT INTO income VALUES ('I002',	'A Bugs Life',	'33258025', NULL, NULL,		'162798565');
+INSERT INTO income VALUES ('I003',	'Toy Story 2',	'57388839',	'42243790',	'16365420',	'245852179');
+INSERT INTO income VALUES ('I004',	'Monsters Inc.',	'62577067',	'38753206',	'47915822',	'289423425');
+INSERT INTO income VALUES ('I005',	'Finding Nemo',	'70251710',	'77085377',	'38021195',	'380529370');
+INSERT INTO income VALUES ('I006',	'The Incredibles',	'70467623',	'38399050',	'10806247',	'261441092');
+INSERT INTO income VALUES ('I007',	'Cars',	'60119509',	'325388959',	'13718220',	'244082982');
