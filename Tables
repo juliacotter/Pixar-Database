@@ -71,7 +71,6 @@ CREATE TABLE Income (
 IncomeID          int(5)      NOT NULL,
 Box_Office_Sales  int(15),
 DVD_Sales         int(15),
-VHS_Sales         int(15),
 Digital_Sales     int(15),
 Gross_Sales       int(15),
 CONSTRAINT
