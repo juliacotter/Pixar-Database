@@ -157,3 +157,20 @@ INSERT INTO income VALUES ('I004',	'Monsters Inc.',	'62577067',	'38753206',	'479
 INSERT INTO income VALUES ('I005',	'Finding Nemo',	'70251710',	'77085377',	'38021195',	'380529370');
 INSERT INTO income VALUES ('I006',	'The Incredibles',	'70467623',	'38399050',	'10806247',	'261441092');
 INSERT INTO income VALUES ('I007',	'Cars',	'60119509',	'325388959',	'13718220',	'244082982');
+
+INSERT INTO soundtrack VALUES ('001',	'Youve Got a Friend in Me',	'2:04');
+INSERT INTO soundtrack VALUES ('002',	'Strange Thinks',	'3:18');
+INSERT INTO soundtrack VALUES ('003',	'I Will Go Sailing No More',	'2:57');
+INSERT INTO soundtrack VALUES ('004',	'The Time of Your Life',	'3:14');
+INSERT INTO soundtrack VALUES ('005',	'Woodys Roundup',	'1:53');
+INSERT INTO soundtrack VALUES ('006',	'When She Loved Me',	'3:04');
+INSERT INTO soundtrack VALUES ('007',	'If I Didnt Have You',	'3:41');
+INSERT INTO soundtrack VALUES ('008',	'Beyond the Sea',	'3:12');
+INSERT INTO soundtrack VALUES ('009',	'Life Is a Highway',	'4:37');
+INSERT INTO soundtrack VALUES ('010',	'Real Gone',	'3:22');
+INSERT INTO soundtrack VALUES ('011',	'Our Town',	'4:07');
+INSERT INTO soundtrack VALUES ('012',	'Behind the Clouds',	'4:09');
+INSERT INTO soundtrack VALUES ('013',	'Find Yourself',	'4:11');
+INSERT INTO soundtrack VALUES ('014',	'Sh-Boom',	'2:26');
+INSERT INTO soundtrack VALUES ('015',	'Route 66',	'3:25');
+INSERT INTO soundtrack VALUES ('016',	'My Heart Would Know',	'2:27');
