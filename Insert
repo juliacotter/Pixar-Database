@@ -141,3 +141,11 @@ INSERT INTO multiple_movies VALUES('Cars',	'A032');
 INSERT INTO multiple_movies VALUES('Cars',	'A033');
 INSERT INTO multiple_movies VALUES('Cars',	'A034');
 INSERT INTO multiple_movies VALUES('Cars',	'C001');
+
+INSERT INTO budget VALUES ('B001',	'Toy Story',	'$30000000', NULL, NULL);
+INSERT INTO budget VALUES ('B002',	'A Bug's Life',	'$120000000', null, null);
+INSERT INTO budget VALUES ('B003',	'Toy Story 2',	'$90000000', NULL, NULL);
+INSERT INTO budget VALUES ('B004',	'Mnster's Inc.',	'$115000000', NULL, NULL);
+INSERT INTO budget VALUES ('B005',	'Finding Nemo',	'$94000000', NULL, NULL);
+INSERT INTO budget VALUES ('B006',	'The Incredibles',	'$92000000', NULL, NULL);
+INSERT INTO budget VALUES ('B007',	'Cars',	'$120000000', NULL, NULL);
