@@ -104,9 +104,9 @@ CONSTRAINT critic_FK
 CREATE TABLE Award(
 AwardID		varchar(5)	NOT NULL,
 Movie_Title	varchar(20)	NOT NULL,
-Award_Category	varchar(20),
+Award_Category	varchar(30),
 Award_Date	varchar(15),
-Award_Show	varchar(20),
+Award_Show	varchar(30),
 CONSTRAINT award_PK
   PRIMARY KEY (AwardID),
 CONSTRAINT movie_award_PK
