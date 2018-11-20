@@ -464,3 +464,50 @@ INSERT INTO award VALUES('A083',	'Coco',	'Best Animated Film',	'2018',	'Academy 
 INSERT INTO award VALUES('A084',	'Incredibles 2',	'Best Summer Blockbuster', '2018', 	'Golden Trailer Awards');
 INSERT INTO award VALUES('A085',	'Incredibles 2',	'Favorite Family Movie',	'2018',	'Peoples Choice Awards');
 INSERT INTO award VALUES('A086',	'Incredibles 2',	'Choice Summer Movie',	'2018',	'Teen Choice Awards');
+
+INSERT INTO Staff VALUES ('D005',	'Brad',	'Bird',	'Director');
+INSERT INTO Staff VALUES ('D006',	'Andrew','Stanton','Director');
+INSERT INTO Staff VALUES ('D007',	'Bob',	'Peterson',	'Director');
+INSERT INTO Staff VALUES ('D008',	'Lee',	'Unkrich',	'Director');
+INSERT INTO Staff VALUES ('D009',	'Brad',	'Lewis',	'Director');
+INSERT INTO Staff VALUES ('D010',	'Mark',	'Andrews',	'Director');
+
+
+INSERT INTO multiple_movies VALUES ('Ratatouille','D005');
+INSERT INTO multiple_movies VALUES ('WALL-E','D006');
+INSERT INTO multiple_movies VALUES ('Up','D007');
+INSERT INTO multiple_movies VALUES ('Toy Story 3','D008');
+INSERT INTO multiple_movies VALUES ('Cars 2','D009');
+INSERT INTO multiple_movies VALUES ('Brave','D010');
+
+INSERT INTO Staff VALUES ('P009',	'Brad',	'Bird',	'Producer');
+INSERT INTO Staff VALUES ('P010',	'Lindsey','Collins','Producer');
+INSERT INTO Staff VALUES ('P011',	'John',	'Lasseter',	'Producer');
+INSERT INTO Staff VALUES ('P012',	'Darla','Andersen',	'Producer');
+INSERT INTO Staff VALUES ('P013',	'Mark',	'Nielsen',	'Producer');
+INSERT INTO Staff VALUES ('P014',	'Pete',	'Docter',	'Producer');
+
+
+INSERT INTO multiple_movies VALUES ('Ratatouille','P009');
+INSERT INTO multiple_movies VALUES ('WALL-E','P010');
+INSERT INTO multiple_movies VALUES ('Up','P011');
+INSERT INTO multiple_movies VALUES ('Toy Story 3','P012');
+INSERT INTO multiple_movies VALUES ('Cars 2','P013');
+INSERT INTO multiple_movies VALUES ('Brave','P014');
+
+
+INSERT INTO Staff VALUES ('V034',	'Patton','Oswalt',	'Actor');
+INSERT INTO Staff VALUES ('V035',	'Ben','Burtt','Actor');
+INSERT INTO Staff VALUES ('V036',	'Edward','Asner',	'Actor');
+INSERT INTO Staff VALUES ('V037',	'Tom','Hanks',	'Actor');
+INSERT INTO Staff VALUES ('V038',	'Owen',	'Wilson',	'Actor');
+INSERT INTO Staff VALUES ('V039',	'Kelly',	'Macdonald',	'Actor');
+
+
+INSERT INTO multiple_movies VALUES ('Ratatouille','V034');
+INSERT INTO multiple_movies VALUES ('WALL-E','V035');
+INSERT INTO multiple_movies VALUES ('Up','V036');
+INSERT INTO multiple_movies VALUES ('Toy Story 3','V037');
+INSERT INTO multiple_movies VALUES ('Cars 2','V038');
+INSERT INTO multiple_movies VALUES ('Brave','V039');
+
