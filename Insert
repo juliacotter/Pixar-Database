@@ -272,3 +272,81 @@ INSERT INTO award VALUES ('A032',	'Cars',	'Top Box Office Films',	'2007',	'ASCAP
 INSERT INTO award VALUES ('A033',	'Cars',	'Best Song Written for a Motion Picture',	'2007',	'Grammy Awards');
 INSERT INTO award VALUES ('A034',	'Cars',	'Favorite Family Movie',	'2007',	'Peoples Choice Awards');
 INSERT INTO award VALUES ('A035',	'Cars',	'Animation of the Year',	'2006',	'Hollywood Film Awards');
+
+INSERT INTO budget VALUES ('B008',	'Ratatouille',	'150000000', NULL, NULL);
+INSERT INTO budget VALUES ('B009',	'WALL-E', '180000000', null, null);
+INSERT INTO budget VALUES ('B010',	'Up', '175000000', NULL, NULL);
+INSERT INTO budget VALUES ('B011',	'Toy Story 3',	'200000000', NULL, NULL);
+INSERT INTO budget VALUES ('B012',	'Cars 2',	'200000000', NULL, NULL);
+INSERT INTO budget VALUES ('B013',	'Brave',	'185000000', NULL, NULL);
+
+INSERT INTO income VALUES ('I008',	'Ratatouille',	'47027395',	'189382771',NULL ,'206445654');
+INSERT INTO income VALUES ('I009',	'WALL-E',	'63087526','203909731', NULL,'223808164');
+INSERT INTO income VALUES ('I010',	'Up','68108790','231541033','83378150',	'293004164');
+INSERT INTO income VALUES ('I011',	'Toy Story 3',	'110307189','192551712','57210403','415004880');
+INSERT INTO income VALUES ('I012',	'Cars 2',	'66135507',	'108124291','39779306',	'191450875');
+INSERT INTO income VALUES ('I013',	'Brave',	'66323594',	'135339315','54088476',	'237282182');
+
+INSERT INTO soundtrack VALUES ('008',	'Le Festin','2:52');
+INSERT INTO soundtrack VALUES ('009',	'Define Dancing','2:29');
+INSERT INTO soundtrack VALUES ('010',	'Married Life',	'4:13');
+INSERT INTO soundtrack VALUES ('011',	'We Belong Together','4:03');
+INSERT INTO soundtrack VALUES ('012',	'You Might Think','3:06');
+INSERT INTO soundtrack VALUES ('013',	'Touch the Sky','2:32');
+
+INSERT INTO multiple_songs VALUES ('Ratatouille', '017');
+INSERT INTO multiple_songs VALUES ('WALL-E', '018');
+INSERT INTO multiple_songs VALUES ('Up', '019');
+INSERT INTO multiple_songs VALUES ('Toy Story 3', '020');
+INSERT INTO multiple_songs VALUES ('Cars 2', '021');
+INSERT INTO multiple_songs VALUES ('Brave', '022');
+
+INSERT INTO soundtrack_singer VALUES ('017', 'Camile');
+INSERT INTO soundtrack_singer VALUES ('018', 'Thomas Newman');
+INSERT INTO soundtrack_singer VALUES ('019', 'Michael Giacchino');
+INSERT INTO soundtrack_singer VALUES ('020', 'Randy Newman');
+INSERT INTO soundtrack_singer VALUES ('021', 'Weezer');
+INSERT INTO soundtrack_singer VALUES ('022', 'Julie Fowlis');
+
+INSERT INTO multiple_critics VALUES ('Ratatouille',	'C01','9.6');
+INSERT INTO multiple_critics VALUES ('Ratatouille',	'C02','8');
+INSERT INTO multiple_critics VALUES ('Ratatouille',	'C03','9.6');
+INSERT INTO multiple_critics VALUES ('WALL-E','C01','9.6');
+INSERT INTO multiple_critics VALUES ('WALL-E','C02','8.4');
+INSERT INTO multiple_critics VALUES ('WALL-E','C03','9.5');
+INSERT INTO multiple_critics VALUES ('Up',	'C01',	'9.8');
+INSERT INTO multiple_critics VALUES ('Up',	'C02',	'8.3');
+INSERT INTO multiple_critics VALUES ('Up',	'C03',	'8.8');
+INSERT INTO multiple_critics VALUES ('Toy Story 3',	'C01','9.8');
+INSERT INTO multiple_critics VALUES ('Toy Story 3',	'C02','8.3');
+INSERT INTO multiple_critics VALUES ('Toy Story 3',	'C03','9.2');
+INSERT INTO multiple_critics VALUES ('Cars 2','C01','7.4');
+INSERT INTO multiple_critics VALUES ('Cars 2','C02','6.2');
+INSERT INTO multiple_critics VALUES ('Cars 2','C03','7.9');
+INSERT INTO multiple_critics VALUES ('Brave','C01',	'7.9');
+INSERT INTO multiple_critics VALUES ('Brave','C02',	'7.1');
+INSERT INTO multiple_critics VALUES ('Brave','C03',	'6.9');
+
+INSERT INTO award VALUES ('A036',	'Ratatouille','Best Animated Film','2008','Golden Globe');
+INSERT INTO award VALUES ('A037',	'Ratatouille','Best Animated Feature Film of the Year','2008','Academy Award');
+INSERT INTO award VALUES ('A038',	'Ratatouille','Best Animated Film','2008','BAFTA Awards');
+INSERT INTO award VALUES ('A039',	'Ratatouille','Best Writing',	'2008','Academy of Science Fiction, Fantasy & Horror');
+INSERT INTO award VALUES ('A040',	'Ratatouille','Movie of the Year','2008','AFI Awards');
+INSERT INTO award VALUES ('A041',	'WALL-E','Best Animated Feature Film of the Year','2009','Academy Award');
+INSERT INTO award VALUES ('A042',	'WALL-E','Best Animated Film','2009','Golden Globe');
+INSERT INTO award VALUES ('A043',	'WALL-E','Best Animated Film','2009','BAFTA Awards');
+INSERT INTO award VALUES ('A044',	'WALL-E','Best Feature  Film','2009','BAFTA Awards');
+INSERT INTO award VALUES ('A045',	'Up','Best Animated Feature Film of the Year','2010','Academy Award');
+INSERT INTO award VALUES ('A046',	'Up','Best Achievement in Music for Motion Pictures','2010','Academy Award');
+INSERT INTO award VALUES ('A047',	'Up','Best Original Score - Motion Picture','2010',	'Golden Globe');
+INSERT INTO award VALUES ('A048',	'Up','Best Animated Film','2010','BAFTA Awards');
+INSERT INTO award VALUES ('A049',	'Toy Story 3','Best Animated Feature Film of the Year','2011','Academy Award');
+INSERT INTO award VALUES ('A050',	'Toy Story 3','Best Achievement in Music for Motion Pictures','2011','Academy Award');
+INSERT INTO award VALUES ('A051',	'Toy Story 3','Best Animated Film',	'202011','Golden Globe');
+INSERT INTO award VALUES ('A052',	'Toy Story 3','Best Animated Film','2011','BAFTA Awards');
+INSERT INTO award VALUES ('A053',	'Cars 2','Top Box Office Films','2012','ASCAP');
+INSERT INTO award VALUES ('A054',	'Brave','Best Animated Feature','2013',	'Academy Award');
+INSERT INTO award VALUES ('A055',	'Brave','Best Animated Feature Film','2013','Golden Globe');
+INSERT INTO award VALUES ('A056',	'Brave','Best Animated Film','2013','BAFTA Awards');
+INSERT INTO award VALUES ('A057',   'Brave','Best Animated Female','2013', 'Alliance of Women Film Journalists');
+
