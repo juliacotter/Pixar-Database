@@ -287,12 +287,12 @@ INSERT INTO income VALUES ('I011',	'Toy Story 3',	'110307189','192551712','57210
 INSERT INTO income VALUES ('I012',	'Cars 2',	'66135507',	'108124291','39779306',	'191450875');
 INSERT INTO income VALUES ('I013',	'Brave',	'66323594',	'135339315','54088476',	'237282182');
 
-INSERT INTO soundtrack VALUES ('008',	'Le Festin','2:52');
-INSERT INTO soundtrack VALUES ('009',	'Define Dancing','2:29');
-INSERT INTO soundtrack VALUES ('010',	'Married Life',	'4:13');
-INSERT INTO soundtrack VALUES ('011',	'We Belong Together','4:03');
-INSERT INTO soundtrack VALUES ('012',	'You Might Think','3:06');
-INSERT INTO soundtrack VALUES ('013',	'Touch the Sky','2:32');
+INSERT INTO soundtrack VALUES ('017',	'Le Festin','2:52');
+INSERT INTO soundtrack VALUES ('018',	'Define Dancing','2:29');
+INSERT INTO soundtrack VALUES ('019',	'Married Life',	'4:13');
+INSERT INTO soundtrack VALUES ('020',	'We Belong Together','4:03');
+INSERT INTO soundtrack VALUES ('021',	'You Might Think','3:06');
+INSERT INTO soundtrack VALUES ('022',	'Touch the Sky','2:32');
 
 INSERT INTO multiple_songs VALUES ('Ratatouille', '017');
 INSERT INTO multiple_songs VALUES ('WALL-E', '018');
