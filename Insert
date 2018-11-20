@@ -390,11 +390,11 @@ INSERT INTO multiple_songs VALUES('Cars 3', '028');
 INSERT INTO multiple_songs VALUES('Cars 3', '029');
 INSERT INTO multiple_songs VALUES('Cars 3', '030');
 INSERT INTO multiple_songs VALUES('Cars 3', '031');
-INSERT INTO multiple_songs VALUES('Cars 3', '032',);
-INSERT INTO multiple_songs VALUES('Cars 3', '033',);
-INSERT INTO multiple_songs VALUES('Cars 3', '034',);
-INSERT INTO multiple_songs VALUES('Coco', '035',);
-INSERT INTO multiple_songs VALUES('Coco', '036',);
+INSERT INTO multiple_songs VALUES('Cars 3', '032');
+INSERT INTO multiple_songs VALUES('Cars 3', '033');
+INSERT INTO multiple_songs VALUES('Cars 3', '034');
+INSERT INTO multiple_songs VALUES('Coco', '035');
+INSERT INTO multiple_songs VALUES('Coco', '036');
 INSERT INTO multiple_songs VALUES('Coco', '037');
 INSERT INTO multiple_songs VALUES('Incredibles 2', '038');
 
