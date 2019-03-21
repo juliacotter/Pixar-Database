@@ -2,103 +2,87 @@
 
 CREATE TABLE Movie(
 Movie_Title   varchar(20)   NOT NULL,
-Runtime       varchar(4),
-Release_Date  varchar(17),
-CONSTRAINT movie_PK
-  PRIMARY KEY (Movie_Title)
+Release_Date  date(),
+Runtime	      int(3),
+PRIMARY KEY (Movie_Title)
 );
 
 CREATE TABLE Staff(
-StaffID     varchar(5)    NOT NULL,
+Staff_ID     varchar(4)    NOT NULL,
 First_Name  varchar(20),
 Last_Name   varchar(20),
 Position    varchar(20),
-CONSTRAINT staff_PK
-  PRIMARY KEY (StaffID)
+PRIMARY KEY (StaffID)
 );
 
 CREATE TABLE Multiple_Movies(
 Movie_Title   varchar(20)           NOT NULL,
-StaffID       varchar(5)            NOT NULL,
-CONSTRAINT movie_FK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title),
-CONSTRAINT staff_FK
-  FOREIGN KEY (StaffID)
-    REFERENCES Staff(StaffID)
+Staff_ID       varchar(4)            NOT NULL,
+PRIMARY KEY (Movie_Title, Staff_ID),
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title),
+FOREIGN KEY (Staff_ID)
+  REFERENCES Staff(Staff_ID)
 );
 
 CREATE TABLE Budget(
-BudgetID            varchar(5)      NOT NULL,
+Budget_ID           varchar(4)      NOT NULL,
 Movie_Title         varchar(20)     NOT NULL,
 Production_Budget   int(12),
-Staff_Budget        int(12),
-Equip_Budget        int(12),
-CONSTRAINT budget_PK
-  PRIMARY KEY (BudgetID),
-CONSTRAINT movie_budget_PK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title)
+PRIMARY KEY (Budget_ID),
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title)
 );
 
 CREATE TABLE Income(
-IncomeID	varchar(5)	NOT NULL,
+Income_ID	varchar(4)	NOT NULL,
 Movie_Title	varchar(20)	NOT NULL,
-Box_Office	int(12),
-DVD_Sales	int(12),
-Digital_Sales	int(12),
-Gross		int(12),
-CONSTRAINT income_PK
-  PRIMARY KEY (IncomeID),
-CONSTRAINT movie_income_FK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title)
+Opening_Weekend	int(12),
+Domestic_Gross	int(12),
+Worldwide_Gross	int(12),
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title)
 );
 
 CREATE TABLE Soundtrack(
 TrackNo		int(3)		NOT NULL,
 Song_Name	varchar(30),
 Length		varchar(4),
-CONSTRAINT soundtrack_PK
-  PRIMARY KEY (TrackNo)
+PRIMARY KEY (TrackNo)
 );
 
 CREATE TABLE Multiple_Songs(
 Movie_Title   varchar(20)       NOT NULL,
 TrackNo       int(3)            NOT NULL,
-CONSTRAINT movie_movie)soundtrack_FK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title),
-CONSTRAINT movie_songs_FK
-  FOREIGN KEY (TrackNo)
-    REFERENCES Soundtrack(TrackNo)
+PRIMARY KEY (Movie_Title, TrackNo),
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title),
+FOREIGN KEY (TrackNo)
+  REFERENCES Soundtrack(TrackNo)
 );
 
 CREATE TABLE Soundtrack_Singer(
 TrackNo		int(2)		NOT NULL,
 Singer		varchar(20)	NOT NULL,
-CONSTRAINT soundtrack_singer_FK
-  FOREIGN KEY (TrackNo)
-    REFERENCES Soundtrack(TrackNo)
+FOREIGN KEY (TrackNo)
+  REFERENCES Soundtrack(TrackNo)
+);
+
+CREATE TABLE Critics(
+Critic_ID	varchar(4)	NOT NULL,
+Critic_Name	varchar(20),
+PRIMARY KEY (Critic_ID)
 );
 
 CREATE TABLE Movie_Review(
-CriticID	varchar(5)	NOT NULL,
-Critic_Name	varchar(20),
-CONSTRAINT movie_review_PK
-  PRIMARY KEY (CriticID)
-);
-
-CREATE TABLE Multiple_Critics(
 Movie_Title   varchar(20)           NOT NULL,
-CriticID      varchar(5)            NOT NULL,
-Rating	      varchar(5),
-CONSTRAINT movie_movie_critic_FK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title),
-CONSTRAINT critic_FK
-  FOREIGN KEY (CriticID)
-    REFERENCES Movie_Review(CriticID)
+Critic_ID      varchar(5)            NOT NULL,
+Rating	      decimal(4,1),
+PRIMARY KEY (Movie_Title, Critic_ID)
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title),
+FOREIGN KEY (CriticID)
+  REFERENCES Movie_Review(Critic_ID)
 );
 
 CREATE TABLE Award(
@@ -107,9 +91,7 @@ Movie_Title	varchar(20)	NOT NULL,
 Award_Category	varchar(30),
 Award_Date	varchar(15),
 Award_Show	varchar(30),
-CONSTRAINT award_PK
-  PRIMARY KEY (AwardID),
-CONSTRAINT movie_award_PK
-  FOREIGN KEY (Movie_Title)
-    REFERENCES Movie(Movie_Title)
+PRIMARY KEY (AwardID),
+FOREIGN KEY (Movie_Title)
+  REFERENCES Movie(Movie_Title)
 );
